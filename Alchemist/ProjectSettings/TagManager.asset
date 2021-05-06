@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Canvas
+    uniqueID: 4285600447
+    locked: 0
+  - name: ItemSlot
+    uniqueID: 2836971781
+    locked: 0
+  - name: Item
+    uniqueID: 1788689213
+    locked: 0
+  - name: Panel
+    uniqueID: 1194389573
+    locked: 0
+  - name: PanelItemSlot
+    uniqueID: 2811292605
+    locked: 0
+  - name: PanelItem
+    uniqueID: 3070621757
+    locked: 0

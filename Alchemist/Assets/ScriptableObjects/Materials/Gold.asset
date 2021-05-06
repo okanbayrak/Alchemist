@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fc31cb2fca33344a37edf8b61caf86, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: 
+  name: Gold
+  description: I've no idea why this god damn sh*t is so expensive, but it most be
+    useful for something.
+  icon: {fileID: 21300000, guid: 97ed34c211e3d954cb5b84c3d65b69c3, type: 3}
+  craftables: []

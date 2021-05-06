@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fc31cb2fca33344a37edf8b61caf86, type: 3}
+  m_Name: GreenPotion
+  m_EditorClassIdentifier: 
+  name: Green Potion
+  description: A gift from mother nature.
+  icon: {fileID: 21300000, guid: bad74c936d6ec0240bd70e742ce1ff0c, type: 3}
+  craftables:
+  - Brain
+  - Tree
