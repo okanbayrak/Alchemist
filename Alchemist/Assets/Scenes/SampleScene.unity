@@ -1571,7 +1571,7 @@ PrefabInstance:
       objectReference: {fileID: 2990426366599055581, guid: 5fb6fd1dfdd853542a500f9ae8382867, type: 3}
     - target: {fileID: 5059215107438860396, guid: dfcce149374dd6a4f9326818b0817f2a, type: 3}
       propertyPath: materials.Array.size
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5059215107438860396, guid: dfcce149374dd6a4f9326818b0817f2a, type: 3}
       propertyPath: craftedMaterialsPanel
@@ -1641,6 +1641,10 @@ PrefabInstance:
       propertyPath: materials.Array.data[14]
       value: 
       objectReference: {fileID: 11400000, guid: 0d34f989886b7d348a65f89b9d7e3f50, type: 2}
+    - target: {fileID: 5059215107438860396, guid: dfcce149374dd6a4f9326818b0817f2a, type: 3}
+      propertyPath: materials.Array.data[15]
+      value: 
+      objectReference: {fileID: 11400000, guid: b2d671fd2075d1744b6e849a68f2bb72, type: 2}
     - target: {fileID: 5059215107438860396, guid: dfcce149374dd6a4f9326818b0817f2a, type: 3}
       propertyPath: placeholders.Array.data[0]
       value: 

@@ -72,7 +72,6 @@ public class CraftingManager : MonoBehaviour
         }
         else
         {
-            //TODO: Put an indicator in case of no match for the materials in cauldrons
             Camera.main.GetComponent<CameraController>().Shake();
         }
     }
