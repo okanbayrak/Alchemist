@@ -12,7 +12,7 @@ public class MaterialController : MonoBehaviour
     
     // Even if it doesn't show up in inspector, just to make it clear for everybody, added the tag
     [HideInInspector]
-    public HashSet<string> craftables;
+    public HashSet<string> craftables = new HashSet<string>();
 
     // Start is called before the first frame update
     void Start()

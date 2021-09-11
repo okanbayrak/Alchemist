@@ -50,9 +50,11 @@ public class CraftingManager : MonoBehaviour
     {
         int numberOfMaterials = 0;
         StringBuilder stringBuilder = new StringBuilder();
-        foreach (string craftable in cauldrons[0].MaterialGameObject.GetComponent<MaterialController>().craftables)
+        HashSet<string> craftablesCauldron1 = cauldrons[0].MaterialGameObject.GetComponent<MaterialController>().craftables;
+        HashSet<string> craftablesCauldron2 = cauldrons[1].MaterialGameObject.GetComponent<MaterialController>().craftables;
+        foreach (string craftable in craftablesCauldron1)
         {
-            if (!craftedMaterials.Contains(craftable) && cauldrons[1].MaterialGameObject.GetComponent<MaterialController>().craftables.Contains(craftable))
+            if (!craftedMaterials.Contains(craftable) && craftablesCauldron2.Contains(craftable))
             {
                 Material material = materials.Find(x => x.name == craftable);
                 GenerateMaterial(materialSetPrefab, materialGrid, material);
